@@ -10,7 +10,7 @@ if (optionalString != nil) {
 }
 
 //Optional Binding
-if let string = optionalString { //checking for nil and unwrapping and assiging the optional value
+if let string = optionalString { //checking for nil and unwrapping and assigning the optional value
     print(string)
 }
 
