@@ -50,11 +50,11 @@ extension AnimalAction {
 
 class Dog : Animal, AnimalAction {
     
-    var legs: Int = 4
+    var legs: Int 
     
     //required by protocol
     required init(legs : Int){
-        self.legs
+        self.legs = legs
     }
 }
 
